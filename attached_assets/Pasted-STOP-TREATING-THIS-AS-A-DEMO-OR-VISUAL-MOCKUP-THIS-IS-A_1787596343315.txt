@@ -1,0 +1,116 @@
+STOP TREATING THIS AS A DEMO OR VISUAL MOCKUP. THIS IS A REAL HIRING SUBMISSION AND I NEED THE IMPLEMENTATION TO BE FUNCTIONALLY VERIFIED, NOT JUST RENDERED.
+
+Treat the Udhi Technologies assignment as a strict production-quality acceptance test.
+
+Do not report the task as complete because the page renders or the build passes.
+
+I have manually tested the current application and the visible interactive controls are not actually working. This is a blocking issue.
+
+Your job now is to:
+
+Inspect the entire current codebase.
+Identify every interactive element visible in the UI.
+Implement the actual frontend behavior for every one.
+Run the application in the browser.
+Physically test each interaction in the browser.
+Confirm that the rendered UI visibly changes after each interaction.
+Fix anything that fails.
+Only then report completion.
+
+Do NOT just inspect the source code and assume an onClick works.
+
+Blocking interactions
+
+Test all of these individually:
+
+Overview
+Topic library
+Help
+Help close
+All topics filter
+Strong / Mastered filter
+Developing filter
+Needs Attention filter
+Not Started filter
+Respiration Start Practice
+Review Topic
+Homeostasis Start Topic
+Inheritance Start Topic
+Mobile navigation
+Any other element that visually appears clickable
+
+For each one, verify:
+
+Click → visible state change → correct behavior → ability to return/close where appropriate.
+
+Do not create a backend, database, authentication system, or real learning engine. These can be local frontend interactions.
+
+ALSO VERIFY THE TECHNICAL REQUIREMENTS
+
+The final project MUST genuinely be:
+
+Next.js + React + TypeScript + Tailwind CSS
+
+Not Vite.
+
+Verify the actual package configuration and application entrypoint.
+
+Verify:
+
+Next App Router
+clean component architecture
+separate data
+separate business logic
+exact supplied data shape
+dynamic recommendation
+correct Not Started logic
+dynamic exam countdown
+meaningful Tailwind usage
+no unnecessary dependencies
+no unrelated backend/database scaffold
+no Replit branding/artifacts
+TypeScript checks
+production build
+desktop browser test
+mobile browser test
+STRICT PRODUCT TEST
+
+Pretend you are the hiring engineer reviewing this submission.
+
+Ask:
+
+Can a student understand where they stand within a few seconds?
+
+Can they understand what they should do next?
+
+Can they actually interact with the screen?
+
+Does every visible control behave honestly?
+
+Does the implementation meet every explicit technical requirement?
+
+If the answer to any of these is no, fix it before declaring completion.
+
+IMPORTANT
+
+Do not redesign the existing visual language unnecessarily.
+
+The current visual foundation is good. Preserve it while making the implementation genuinely functional and technically correct.
+
+Do not add fake features just to make the project appear larger.
+
+Do not invent data.
+
+Do not hardcode the recommendation.
+
+Do not weaken TypeScript to make errors disappear.
+
+Do not hide broken interactions.
+
+The final standard is not “looks good.”
+
+The final standard is:
+
+LOOKS GOOD + WORKS + CORRECT DATA + CLEAN ARCHITECTURE + MEETS THE ASSIGNMENT + VERIFIED IN THE BROWSER.
+
+After finishing, give me a test report containing every interaction you actually tested and the result of each test.
